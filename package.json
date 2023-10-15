@@ -1,0 +1,38 @@
+{
+  "name": "vest-ideal-theme",
+  "displayName": "Vest Ideal Theme",
+  "description": "This is a theme I created just for myself, but if you like it - use)",
+  "version": "0.0.1",
+  "publisher": "KarelVest",
+  "icon": "logo.png",
+  "repository": {
+	"type": "git",
+	"url": "https://github.com/KarelVest/vest-ideal-theme/"
+  },
+  "keywords": [
+    "theme",
+	"dark theme",
+	"vest",
+	"vest theme",
+	"ideal",
+	"ideal theme",
+	"green",
+	"neon",
+	"KarelVest"
+  ],
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Vest's Ideal Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Vest's Ideal Theme-color-theme.json"
+      }
+    ]
+  }
+}
